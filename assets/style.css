@@ -321,7 +321,7 @@ section .github-2 {
   margin-top: 2rem;
 }
 
-#imgs-git{
+.imgs-git{
   display: flex;
   justify-content: left;
   align-items: center;
