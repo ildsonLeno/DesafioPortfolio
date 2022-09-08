@@ -509,6 +509,12 @@ section .posts-box {
 /* ----------- RESPONSIDADE ----------- */
 
 @media (max-width: 1070px) {
+
+*{
+    transition: all 1s ease;
+}
+
+
   section .github {
     display: flex;
     flex-direction: column;
@@ -518,6 +524,11 @@ section .posts-box {
 }
 
 @media (max-width: 1000px) {
+
+*{
+    transition: all 1s ease;
+}
+
   .container{
     flex-direction: column;
   }
@@ -531,6 +542,11 @@ section .posts-box {
 }
 
 @media (max-width: 670px) {
+
+  *{
+    transition: all 1s ease;
+}
+
   body {
     justify-content: center;
     padding: 2rem 2rem 0 2rem;
@@ -556,6 +572,11 @@ section .posts-box {
 }
 
 @media (max-width: 420px) {
+
+  *{
+    transition: all 1s ease;
+}
+
   body {
     justify-content: center;
     padding: 2rem 2rem 0 2rem;
